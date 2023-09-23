@@ -12,8 +12,8 @@ public abstract class Bird {
     private BirdType type;
     private Color color;
     private Size size;
-    //Here in the Bird class, we have specified StronBeak, which is wrong
-    //Not every bird will have a strong beak, some may have waek bea as well.
+    //Here in the Bird class, we have specified StrongBeak, which is wrong
+    //Not every bird will have a strong beak, some may have weak bea as well.
     //So we need to specify Beak, not it's child class
 
 //    private StrongBeak beak;

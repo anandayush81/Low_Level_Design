@@ -7,7 +7,7 @@ public class Eagle extends Bird implements Flyable {
 
     //Since the attributes of Eagle are declared in Bird class, which is it's parent class,
     //we need to create a constructor of child class and send all attributes this child class received while creating it's object
-    //to it's parent class using super()
+    //to its parent class using super()
 
 
     @Override

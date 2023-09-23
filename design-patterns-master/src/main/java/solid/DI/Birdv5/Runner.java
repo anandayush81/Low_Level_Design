@@ -5,11 +5,13 @@ public class Runner {
     public static void main(String[] args) {
         StrongBeak beak1 = new StrongBeak(100.0, "Calcium");
         WeakBeak beak2=new WeakBeak(50.0, "Rubber");
+        Beak beak3=new WeakBeak(50.0, "Rubber");
         //In the Bird class, we have specified StronBeak, which is wrong
         //Not every bird will have a strong beak, some may have waek bea as well.
         //So we need to specify Beak, not it's child class
         Eagle e = new Eagle("Eagle1", 2.0, BirdType.EAGLE, Color.RED, Size.LARGE, beak1);
         Sparrow s = new Sparrow("Sparrow1", 2.0, BirdType.SPARROW, Color.GREEN, Size.SMALL, beak2);
+        Sparrow s2 = new Sparrow("Sparrow2", 2.0, BirdType.SPARROW, Color.GREEN, Size.SMALL, beak3);
 
 
         e.fly();
@@ -17,6 +19,7 @@ public class Runner {
         e.eat();
         s.eat();
 
+        s2.fly();
 
 
 
