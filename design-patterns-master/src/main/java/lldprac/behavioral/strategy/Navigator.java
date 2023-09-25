@@ -7,9 +7,13 @@ public class Navigator {
     /*public Navigator(TwoWheelerStrategy strategy) {
         this.navigationStrategy=strategy;
     }*/
+
+    //Constructor
     public Navigator(NavigationStrategy navigationStrategy) {
         this.navigationStrategy=navigationStrategy;
     }
+
+    //Setter
     public void setNavigationStrategy(NavigationStrategy navigationStrategy){
         this.navigationStrategy=navigationStrategy;
     }

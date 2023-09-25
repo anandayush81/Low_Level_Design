@@ -16,7 +16,6 @@ public class BitcoinManager extends Publisher {
             //Since we're extending the Publisher class, we can directly call parent class methods from child class
 
         }
-
         bitcoin.setPrice(price);
 
     }

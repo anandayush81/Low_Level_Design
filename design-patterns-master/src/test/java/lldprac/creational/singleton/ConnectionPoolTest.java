@@ -21,8 +21,8 @@ public class ConnectionPoolTest {
     @Test
     public void testSingleInstance(){
 
-        lldprac.singleton.ConnectionPool cp1= lldprac.singleton.ConnectionPool.getInstance();
-        lldprac.singleton.ConnectionPool cp2= ConnectionPool.getInstance();
+        ConnectionPool cp1= ConnectionPool.getInstance();
+        ConnectionPool cp2= ConnectionPool.getInstance();
 //        assert(cp1==null);
         assertNotNull(cp1);
         assertNotNull(cp2);

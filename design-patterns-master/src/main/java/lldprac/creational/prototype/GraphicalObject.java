@@ -4,4 +4,5 @@ package lldprac.creational.prototype;
 @FunctionalInterface
 public interface GraphicalObject {
     GraphicalObject cloneObject();
+    /*BackgroundObject cloneObject();*/
 }

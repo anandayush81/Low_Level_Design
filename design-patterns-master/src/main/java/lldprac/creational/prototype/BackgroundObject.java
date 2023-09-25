@@ -49,4 +49,6 @@ public class BackgroundObject implements GraphicalObject {
         return new BackgroundObject(this); //Calling a copy constructor, so we can simply copy subsequent objects
         // and not create new objects from scratch
     }
+
+
 }

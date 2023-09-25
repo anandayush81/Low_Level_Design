@@ -12,7 +12,7 @@ public class DatabaseTest {
         //Database d1=new Database(); //Can't call private ctor from diff class
 
 //        Database.Builder builder=Database.builder(); //static initialiser. Using this, we don't need t call new Database()
-        lldprac.builder.Database.Builder builder= new lldprac.builder.Database.Builder();//This also works to create a Builder class object
+        Database.Builder builder= new Database.Builder();//This also works to create a Builder class object
 
         //Here we've used fluent interface. We could have done normally as well
         //like builder.setName("Ayush"); builder.setUserName("anandayush81"); so on

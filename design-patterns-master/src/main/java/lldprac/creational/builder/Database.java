@@ -8,9 +8,9 @@ public class Database {
     private Database(){
     }
     //Trick 1: a static method in outer class to return object of builder class
-    public static Builder builder(){
+    /*public static Builder builder(){
         return new Builder();
-    }
+    }*/// not necessary
 
     //step 1 create static inner class
     public static class Builder{ //Benefit of inner calss is that private memebers of outer class

@@ -12,8 +12,8 @@ public class BackgroundObjectTest {
     public void testClone(){
         // Step 4 - Create a prototype object
         //Create the main object(Prototype) + Create it's clone + Modify the clone
-        lldprac.prototype.BackgroundObject prototype = new lldprac.prototype.BackgroundObject(10.0, 20.0, 100.0, 200.0, lldprac.prototype.BackgroundType.TREE);
-        lldprac.prototype.BackgroundObject clone = prototype.cloneObject();
+        BackgroundObject prototype = new BackgroundObject(10.0, 20.0, 100.0, 200.0, lldprac.prototype.BackgroundType.TREE);
+        BackgroundObject clone = prototype.cloneObject();
         assert(prototype !=clone);
         //Ideally, clone and prototype should be 2 different objects, but have the same values of attributes
         assertEquals(prototype.getType(), clone.getType(), "Values of both types should be same");
